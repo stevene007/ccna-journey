@@ -6,3 +6,4 @@ Documenting my path to a CCNA, while showcasing skills.
 - Started Jeremy's IT Lab CCNA Course
 - Building website from scratch
 - Learning Git and web development alongside networking
+- Discovered freecodecamp.org to help me learn full-stack development
