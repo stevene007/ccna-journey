@@ -4,7 +4,7 @@ padding: 0;
 background-color: #111111;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
 margin: 10px;
 text-align: center;
 color: aliceblue;
@@ -40,4 +40,17 @@ text-decoration: none;
 
 ul li a:hover {
 background-color: #111111;
+}
+
+.bg {
+/* The image used */
+background-image: url("home_bg.jpeg");
+
+/* Full height */
+height: 100vh; 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
