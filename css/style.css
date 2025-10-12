@@ -6,13 +6,17 @@ body {
 }
 
 h1, h2, h3, p {
-    margin: 10px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
 ol {
-    text-align: center;
-    list-style-position: inside;
+    text-align: left;
+    list-style-position: outside;
+    max-width: 900px;
+    margin: 20px auto; /* Centers the list block */
+    margin-bottom: 40px;
+    padding-left: 40px;
 }
 
 
