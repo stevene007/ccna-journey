@@ -41,7 +41,7 @@ ul li a:hover {
     background-color: #111111;
 }
 
-.bg {
+.home-bg {
     /* The image used, the .. brings it back a directory */
     background-image: url("../images/home_bg.jpeg");
 
