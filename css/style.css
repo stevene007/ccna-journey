@@ -22,10 +22,11 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333333;
+    text-align: center;
 }
 
 ul li {
-    float: left;
+    display: inline-block;
 }
 
 ul li a {
@@ -51,4 +52,90 @@ ul li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+/* Info box container */
+.info-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    max-width: 500px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect - lifts the box */
+.info-box:hover {
+    transform: translate(-50%, -50%) translateY(-5px);
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.5);
+}
+
+/* Text inside the box */
+.info-box h1 {
+    margin: 0 0 10px 0;
+    color: #2d5016;
+    font-size: 2em;
+    text-align: center;
+}
+
+.info-box h2 {
+    margin: 0 0 20px 0;
+    color: #5a8c3a;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.info-box p {
+    color: #333;
+    text-align: left;
+    margin: 15px 0;
+}
+
+/* Contact info section */
+.contact-info {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(90, 140, 58, 0.1);
+    border-radius: 10px;
+    border-left: 4px solid #5a8c3a;
+}
+
+.contact-info p {
+    margin: 8px 0;
+    color: #444;
+}
+
+/* Links inside contact info */
+.contact-info a {
+    color: #5a8c3a;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #2d5016;
+    text-decoration: underline;
+}
+
+/* Certification badge */
+.cert-badge {
+    display: inline-block;
+    background: #5a8c3a;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+.cert-badge:hover {
+    background: #2d5016;
 }
