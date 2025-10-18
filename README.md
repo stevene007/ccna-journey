@@ -13,3 +13,4 @@ Documenting my path to a CCNA, while showcasing skills.
 - Set up GitHub to work on linux
 - Slowly swtiching over
 - Continuing to learn about HTML, CSS, and CCNA
+- Continue tagging each week for progress updates
