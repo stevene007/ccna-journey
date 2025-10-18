@@ -11,6 +11,6 @@ Documenting my path to a CCNA, while showcasing skills.
 ## Week 1
 - Switched to Linux Mint
 - Set up GitHub to work on linux
-- Slowly swtiching over
+- Slowly switching over
 - Continuing to learn about HTML, CSS, and CCNA
 - Continue tagging each week for progress updates
